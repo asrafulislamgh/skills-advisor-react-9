@@ -20,10 +20,10 @@ const InstructorHome = () => {
         <p>The most experienced instructors are here.</p>
       </div>
       <div>
-        <Row xs={1} md={3} lg={4} className="g-4">
+        <Row xs={1} md={3} lg={3} className="g-4">
           {instructors.map(
             (instructor) =>
-              instructor.key < 5 && (
+              instructor.key < 4 && (
                 <Col>
                   <Instructor
                     key={instructor.key}
