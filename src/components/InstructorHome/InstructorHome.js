@@ -35,7 +35,9 @@ const InstructorHome = () => {
         </Row>
       </div>
       <Link to="/instructors">
-        <Button className="common-btn my-5">See All the Instructors</Button>
+        <Button className="common-btn my-5 text-dark">
+          See All the Instructors
+        </Button>
       </Link>
     </div>
   );

@@ -6,7 +6,7 @@ import "./Courses.css";
 const Courses = () => {
   const [courses, setCourses] = useState([]);
   useEffect(() => {
-    fetch("./instructors.json")
+    fetch("./courses.json")
       .then((res) => res.json())
       .then((data) => setCourses(data));
   }, []);
