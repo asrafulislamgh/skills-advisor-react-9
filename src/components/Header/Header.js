@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./Header.css";
 import logo from "../../img/logo.png";
 import { Nav, Navbar } from "react-bootstrap";
+import Button from "@restart/ui/esm/Button";
 
 const Header = () => {
   return (
@@ -31,7 +32,7 @@ const Header = () => {
         </div>
       </div> */}
       <div className="header-bottom-area">
-        <Navbar className="nav-border" bg="light" fixed="top" expand="lg">
+        <Navbar className="nav-border" bg="white" fixed="top" expand="lg">
           <div className="container">
             <Navbar.Brand>
               <Link to="/home">
@@ -75,6 +76,7 @@ const Header = () => {
                   </Link>
                 </Nav.Link>
               </Nav>
+              <Button className="common-btn">Sign Up</Button>
             </Navbar.Collapse>
           </div>
         </Navbar>
