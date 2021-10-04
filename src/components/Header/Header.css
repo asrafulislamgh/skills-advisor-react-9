@@ -2,9 +2,8 @@
   background-color: rgb(255, 255, 255);
 }
 li {
-  color: rgb(156, 24, 24);
   display: inline-block;
-  padding: 10px;
+  padding: 10px 0;
 }
 .header-area {
   display: flex;
@@ -21,6 +20,10 @@ li {
   border-bottom: 2px solid #c9c9c9;
 }
 .nav-item {
-  padding: 20px 30px;
+  padding: 20px 0px;
+  margin: 0 20px;
   font-weight: 600;
+}
+.top-btn {
+  margin-left: 40px;
 }

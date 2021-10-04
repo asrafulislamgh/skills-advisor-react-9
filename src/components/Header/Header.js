@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./Header.css";
 import logo from "../../img/logo.png";
 import { Nav, Navbar } from "react-bootstrap";
@@ -50,33 +50,68 @@ const Header = () => {
                 style={{ maxHeight: "100px" }}
                 navbarScroll
               >
-                <Nav.Link href="#action1">
-                  <Link className="nav-item" to="/home">
+                <Nav.Link>
+                  <NavLink
+                    activeStyle={{
+                      color: "black",
+                      borderBottom: "2px solid #ffa500",
+                    }}
+                    className="nav-item"
+                    to="/home"
+                  >
                     Home
-                  </Link>
+                  </NavLink>
                 </Nav.Link>
                 <Nav.Link>
-                  <Link className="nav-item" to="/about">
+                  <NavLink
+                    activeStyle={{
+                      color: "black",
+                      borderBottom: "2px solid #ffa500",
+                    }}
+                    className="nav-item"
+                    to="/about"
+                  >
                     About
-                  </Link>
+                  </NavLink>
                 </Nav.Link>
                 <Nav.Link>
-                  <Link className="nav-item" to="/courses">
+                  <NavLink
+                    activeStyle={{
+                      color: "black",
+                      borderBottom: "2px solid #ffa500",
+                    }}
+                    className="nav-item"
+                    to="/courses"
+                  >
                     Courses
-                  </Link>
+                  </NavLink>
                 </Nav.Link>
                 <Nav.Link>
-                  <Link className="nav-item" to="/instructors">
+                  <NavLink
+                    activeStyle={{
+                      color: "black",
+                      borderBottom: "2px solid #ffa500",
+                    }}
+                    className="nav-item"
+                    to="/instructors"
+                  >
                     Instructors
-                  </Link>
+                  </NavLink>
                 </Nav.Link>
                 <Nav.Link>
-                  <Link className="nav-item" to="/contact">
+                  <NavLink
+                    activeStyle={{
+                      color: "black",
+                      borderBottom: "2px solid #ffa500",
+                    }}
+                    className="nav-item"
+                    to="/contact"
+                  >
                     Contact Us
-                  </Link>
+                  </NavLink>
                 </Nav.Link>
               </Nav>
-              <Button className="common-btn">Sign Up</Button>
+              <Button className="common-btn top-btn">Sign Up</Button>
             </Navbar.Collapse>
           </div>
         </Navbar>
