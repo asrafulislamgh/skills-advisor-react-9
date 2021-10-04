@@ -34,3 +34,7 @@
   color: #808080;
   font-size: 15px;
 }
+.footer-social-nav li {
+  margin: 0 0 10px;
+  font-size: 1.3rem;
+}
