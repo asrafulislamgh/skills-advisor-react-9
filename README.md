@@ -1,6 +1,6 @@
 # Welcome to Skills Advisor
 
-Live preview of our website [Skills Advisor](https://skills-advisor-asmnt-9-asraful.netlify.app/).
+Live preview of our website [https://skills-advisor-asmnt-9-asraful.netlify.app/](https://skills-advisor-asmnt-9-asraful.netlify.app/).
 
 ## Features
 
