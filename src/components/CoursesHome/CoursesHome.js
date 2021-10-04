@@ -21,10 +21,10 @@ const CoursesHome = () => {
         <p>The most demanding courses are here.</p>
       </div>
       <div>
-        <Row xs={1} md={3} lg={3} className="g-4">
+        <Row xs={1} md={3} lg={4} className="g-4">
           {courses.map(
             (course) =>
-              course.key < 4 && (
+              course.key < 5 && (
                 <Col>
                   <Course key={course.key} course={course}></Course>
                 </Col>
