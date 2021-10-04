@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Col, Row } from "react-bootstrap";
+import { Col, Row, Button } from "react-bootstrap";
 import Course from "../Course/Course";
 import "./Courses.css";
 
@@ -28,6 +28,7 @@ const Courses = () => {
           ))}
         </Row>
       </div>
+      <Button className="common-btn mb-5 text-dark">See All the Courses</Button>
     </div>
   );
 };

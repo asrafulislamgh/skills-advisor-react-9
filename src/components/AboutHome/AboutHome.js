@@ -14,7 +14,7 @@ const AboutHome = () => {
         <p>The most effective learning platform in the world!</p>
       </div>
       <div className="about-container">
-        <img src={about_us} alt="" />
+        <img className="about-img" src={about_us} alt="" />
         <div className="about-text">
           <h3>We will try to make you explore yourself!</h3>
           <p>
@@ -27,7 +27,7 @@ const AboutHome = () => {
             changing your life.
           </p>
           <Link to="/about">
-            <Button className="common-btn">Learn More</Button>
+            <Button className="common-btn mt-4">Learn More</Button>
           </Link>
         </div>
       </div>

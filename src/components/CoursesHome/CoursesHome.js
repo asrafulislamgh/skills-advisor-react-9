@@ -26,8 +26,7 @@ const CoursesHome = () => {
             (course) =>
               course.key < 4 && (
                 <Col>
-                  {" "}
-                  <Course key={course.key} course={course}></Course>{" "}
+                  <Course key={course.key} course={course}></Course>
                 </Col>
               )
           )}
