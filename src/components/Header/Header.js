@@ -111,7 +111,14 @@ const Header = () => {
                   </NavLink>
                 </Nav.Link>
               </Nav>
-              <Button className="common-btn top-btn">Sign Up</Button>
+              <div className="top-btn">
+                <Button className="common-btn mx-2">
+                  <i class="fas fa-sign-in-alt"></i>
+                </Button>
+                <Button className="common-btn sign-btn">
+                  <i class="fas fa-user-plus"></i>
+                </Button>
+              </div>
             </Navbar.Collapse>
           </div>
         </Navbar>

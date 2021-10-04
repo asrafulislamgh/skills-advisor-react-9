@@ -27,3 +27,14 @@ li {
 .top-btn {
   margin-left: 40px;
 }
+.sign-btn {
+  background-color: #0d6efd;
+  color: white;
+  padding: 10px 15px;
+}
+.sign-btn:hover {
+  background-color: #013686;
+}
+.common-btn {
+  padding: 10px 15px;
+}
