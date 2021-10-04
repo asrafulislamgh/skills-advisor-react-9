@@ -1,11 +1,12 @@
 import React from "react";
 import About from "../About/About";
+import CarouselSlider from "../CarouselSlider/CarouselSlider";
 import Courses from "../Courses/Courses";
 
 const Home = () => {
   return (
     <div>
-      <h1>Bismillahir Rahmanir Rahim</h1>
+      <CarouselSlider></CarouselSlider>
       <About></About>
       <Courses></Courses>
     </div>

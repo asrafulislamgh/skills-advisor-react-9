@@ -1,0 +1,26 @@
+.header-container {
+  background-color: rgb(255, 255, 255);
+}
+li {
+  color: rgb(156, 24, 24);
+  display: inline-block;
+  padding: 10px;
+}
+.header-area {
+  display: flex;
+  align-content: space-between;
+  align-items: center;
+}
+.nav {
+  margin-left: auto;
+}
+.header-bottom-area {
+  margin-bottom: 108px;
+}
+.nav-border {
+  border-bottom: 2px solid #c9c9c9;
+}
+.nav-item {
+  padding: 30px 30px;
+  font-weight: 600;
+}
