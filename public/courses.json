@@ -11,7 +11,7 @@
         "country": "USA",
         "instructorImg": "https://it.wisc.edu/wp-content/uploads/Mary-Evansen-IMG_0066-1_7x7-72dpi-95-73-50-300x300.jpg",
         "img": "http://tetacourse.com/uploads/posts/2020-04/1586946253_the-complete-2020-full-stack-web-developer-bootcamp.jpg",
-        "salary": 3400
+        "cost": 34
       },
       {
         "key": 2,
@@ -25,7 +25,7 @@
         "country": "Canada",
         "instructorImg": "https://www.forumequitypartners.com/wp-content/uploads/2021/03/PINK_Steven-4409-highres-Copy-3-300x300.jpg",
         "img": "https://downloadfreecourse.com/uploads/images/2021/04/webp/image_750x_6081a99ab3192.webp",
-        "salary": 3900
+        "cost": 39
       },
       {
         "key": 3,
@@ -39,7 +39,7 @@
         "country": "USA",
         "instructorImg": "https://www.fbchomeloans.com/wp-content/uploads/2016/10/Minadeo-Mark-SQ-300x300.jpg",
         "img": "https://gigacourse.com/wp-content/uploads/2018/09/4564655.jpg",
-        "salary": 3000
+        "cost": 30
       },
       {
         "key": 4,
@@ -53,7 +53,7 @@
         "country": "UK",
         "instructorImg": "https://s3.amazonaws.com/utep-uploads/wp-content/uploads/unr/2021/02/10172843/annie-monnig-reid-300x300.jpg",
         "img": "https://i0.wp.com/getintocourse.com/wp-content/uploads/2021/05/Angular-8-with-Project.jpg",
-        "salary": 3400
+        "cost": 34
       },
       {
         "key": 5,
@@ -67,7 +67,7 @@
         "country": "India",
         "instructorImg": "https://www.btgadvisory.com/images/400x400/0x0-0x0/people/xmartin-barron.jpg.pagespeed.ic.edPT1rHTIy.jpg",
         "img": "https://paidcoursesforfree.com/wp-content/uploads/2019/08/React-Redux-React-Router_-From-Beginner-to-Paid-Professional-750x422.jpg",
-        "salary": 2800
+        "cost": 28
       },
       {
         "key": 6,
@@ -81,7 +81,7 @@
         "country": "India",
         "instructorImg": "https://i.pinimg.com/originals/cf/ba/e0/cfbae0128be29a72dea62790a631ab6e.jpg",
         "img": "https://i0.wp.com/coursedrive.org/wp-content/uploads/2019/01/The-Complete-Web-Developer-Course-2.0.jpg?fit=750%2C422&ssl=1",
-        "salary": 3000
+        "cost": 30
       },
       {
         "key": 7,
@@ -95,7 +95,7 @@
         "country": "India",
         "instructorImg": "https://pbs.twimg.com/profile_images/1306403738647777281/VSpCoOWr_400x400.jpg",
         "img": "https://i.udemycdn.com/course/750x422/1166306_84a1_3.jpg",
-        "salary": 2900
+        "cost": 29
       },
       {
         "key": 8,
@@ -109,7 +109,7 @@
         "country": "Bangladesh",
         "instructorImg": "https://7mz32io9r2-flywheel.netdna-ssl.com/wp-content/uploads/elementor/thumbs/Adam_Robinson_bio-nr6rc9m0jiqly9i6qqvx1z8zqmcz5bbjat1yx9k880.jpg",
         "img": "https://www.downtuts.com/wp-content/uploads/2019/06/javascript-interview-prep-750x422.jpg",
-        "salary": 3100
+        "cost": 31
       },
       {
         "key": 9,
@@ -123,7 +123,7 @@
         "country": "India",
         "instructorImg": "https://images.tribuneindia.com/cms/gall_content/2018/11/2018_11$largeimg30_Friday_2018_102620861.png",
         "img": "https://paidcoursesforfree.com/wp-content/uploads/2019/08/Django-2.2-Python-_-The-Ultimate-Web-Development-Bootcamp-1-750x422.jpg",
-        "salary": 2300
+        "cost": 23
       },
       {
         "key": 10,
@@ -137,7 +137,7 @@
         "country": "India",
         "instructorImg": "https://www.nshm.com/wp-content/uploads/2021/05/rakesh-pandey.jpg",
         "img": "https://sanet.pics/storage-5/1119/glFtYjs8pCzh5VLDYVBC5xlBKGjFpHGF.jpg",
-        "salary": 2000
+        "cost": 20
       },
       {
         "key": 11,
@@ -151,7 +151,7 @@
         "country": "India",
         "instructorImg": "https://www.kirkland.com/-/media/professionals/c/crews-kevin.jpg",
         "img": "https://vytcdc.com.sg/wp-content/uploads/2021/03/Microsoft-Net-750x422.jpg",
-        "salary": 2200
+        "cost": 22
       },
       {
         "key": 12,
@@ -165,7 +165,7 @@
         "country": "India",
         "instructorImg": "https://cdn.platohq.com/assets/users/avatars/345dd733-1e3d-43a1-9b1c-bb1761ec6051.jpg",
         "img": "https://i.udemycdn.com/course/750x422/2508942_11d3.jpg",
-        "salary": 2500
+        "cost": 25
       },
       {
         "key": 13,
@@ -179,7 +179,7 @@
         "country": "India",
         "instructorImg": "https://neuger.com/wp-content/uploads/wett-400x400.jpg",
         "img": "https://udemycourses.me/wp-content/uploads/2021/08/ia_100000001183.jpg",
-        "salary": 2700
+        "cost": 27
       },
       {
         "key": 14,
@@ -193,7 +193,7 @@
         "country": "New Zealand",
         "instructorImg": "https://www.teamscotland.scot/wp-content/uploads/2018/03/badminton_campbell_martin2.jpg",
         "img": "https://www.edutechional.com/wp-content/uploads/2021/04/react-typescript-components-interfaces-750x422.jpg",
-        "salary": 3000
+        "cost": 30
       },
       {
         "key": 15,
@@ -207,6 +207,6 @@
         "country": "Bangladesh",
         "instructorImg": "https://static.wixstatic.com/media/86b4d5_8011b77da655407383fb2468d7964949~mv2_d_3840_5760_s_4_2.jpg/v1/crop/x_419,y_36,w_3028,h_3028/fill/w_400,h_400,al_c,q_80,usm_0.66_1.00_0.01/foto_john.webp",
         "img": "https://sanet.pics/storage-7/0721/kpjQdgQdVOj7nCMrqlIjXmMMAkYiJhjy.jpg",
-        "salary": 3200
+        "cost": 32
       }
     ]
