@@ -6,7 +6,7 @@ import Courses from "./components/Courses/Courses";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
-import Instructor from "./components/Instructor/Instructor";
+import Instructors from "./components/Instructors/Instructors";
 import NotFound from "./components/NotFound/NotFound";
 
 function App() {
@@ -24,8 +24,8 @@ function App() {
           <Route path="/about">
             <About></About>
           </Route>
-          <Route path="/instructor">
-            <Instructor></Instructor>
+          <Route path="/instructors">
+            <Instructors></Instructors>
           </Route>
           <Route path="/courses">
             <Courses></Courses>

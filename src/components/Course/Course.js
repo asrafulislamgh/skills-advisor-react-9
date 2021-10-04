@@ -1,29 +1,33 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
+import "./Course.css";
 
-const Instructor = (props) => {
-  const { name, totalCourses, students, img } = props.instructor;
+const Course = (props) => {
+  const { name, img, students, totalCourses, rating } = props.course;
   return (
-    <div>
+    <div className="mb-5">
       <Card>
         <Card.Img variant="top" src={img} />
         <Card.Body>
           <Card.Title>{name}</Card.Title>
           <Card.Text>
             <p>
-              Total Courses: <b>{students}</b>
+              Total Courses: <b>{totalCourses}</b>
             </p>
             <p>
-              Student Enrolled: <b>{totalCourses}</b>
+              Student Enrolled: <b>{students}</b>
+            </p>
+            <p>
+              Rating: <b>{rating}</b>
             </p>
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <Button className="common-btn2">See Courses</Button>
+          <Button className="common-btn2">See all Courses</Button>
         </Card.Footer>
       </Card>
     </div>
   );
 };
 
-export default Instructor;
+export default Course;

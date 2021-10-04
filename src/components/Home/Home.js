@@ -1,7 +1,8 @@
 import React from "react";
 import AboutHome from "../AboutHome/AboutHome";
 import CarouselSlider from "../CarouselSlider/CarouselSlider";
-import Courses from "../Courses/Courses";
+import CoursesHome from "../CoursesHome/CoursesHome";
+import InstructorHome from "../InstructorHome/InstructorHome";
 import "./Home.css";
 
 const Home = () => {
@@ -33,7 +34,8 @@ const Home = () => {
         </div>
       </div>
       <AboutHome></AboutHome>
-      <Courses></Courses>
+      <CoursesHome></CoursesHome>
+      <InstructorHome></InstructorHome>
     </div>
   );
 };

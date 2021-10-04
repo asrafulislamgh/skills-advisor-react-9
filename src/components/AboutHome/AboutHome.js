@@ -16,12 +16,15 @@ const AboutHome = () => {
       <div className="about-container">
         <img src={about_us} alt="" />
         <div className="about-text">
-          <h3>We will try to make you explore yourself</h3>
+          <h3>We will try to make you explore yourself!</h3>
           <p>
             We understand that each of our students is a uniquely talented
             individual. Within our supportive community, students are
             facilitated to develop positive relationships and grab the
-            opportunity to realize their individual potential to the full.
+            opportunity to realize their individual potential to the full. We
+            are always conscious about the quality required to cope with the new
+            digitazed world. So here you will never lose anything rather
+            changing your life.
           </p>
           <Link to="/about">
             <Button className="common-btn">Learn More</Button>

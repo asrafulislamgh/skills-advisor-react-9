@@ -66,8 +66,8 @@ const Header = () => {
                   </Link>
                 </Nav.Link>
                 <Nav.Link>
-                  <Link className="nav-item" to="/instructor">
-                    Instructor
+                  <Link className="nav-item" to="/instructors">
+                    Instructors
                   </Link>
                 </Nav.Link>
                 <Nav.Link>
