@@ -8,29 +8,6 @@ import Button from "@restart/ui/esm/Button";
 const Header = () => {
   return (
     <div>
-      {/* <div className="header-container">
-        <div className="header-area container">
-          <div>
-            <img className="logo_img" src={logo} alt="" />
-          </div>
-          <nav className="nav">
-            <ul>
-              <Link to="/home">
-                <li>Home</li>
-              </Link>
-              <Link to="/courses">
-                <li>Courses</li>
-              </Link>
-              <Link to="/instructor">
-                <li>Instructor</li>
-              </Link>
-              <Link to="/about">
-                <li>About</li>
-              </Link>
-            </ul>
-          </nav>
-        </div>
-      </div> */}
       <div className="header-bottom-area">
         <Navbar className="nav-border" bg="white" fixed="top" expand="lg">
           <div className="container">
